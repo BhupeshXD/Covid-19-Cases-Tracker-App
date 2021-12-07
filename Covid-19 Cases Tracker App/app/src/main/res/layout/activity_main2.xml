@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#85C1E9">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="85dp"
+            android:background="#C17C31"
+            android:src="@drawable/lgm_logo"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="340dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="5dp"
+        android:gravity="center">
+
+        <View
+            android:layout_width="100dp"
+            android:layout_height="3dp"
+            android:layout_marginTop="5dp"
+            android:background="@color/teal_700" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:paddingLeft="5dp"
+            android:paddingRight="5dp"
+            android:text="COVID-19 Tracker"
+            android:textColor="@color/teal_700"
+            android:textSize="28dp"
+            android:textStyle="bold" />
+
+        <View
+            android:layout_width="100dp"
+            android:layout_height="3dp"
+            android:layout_marginTop="5dp"
+            android:background="@color/teal_700"/>
+    </LinearLayout>
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="match_parent"
+        android:layout_height="275dp"
+        android:layout_gravity="center"
+        app:srcCompat="@drawable/covid19" />
+
+
+    <RelativeLayout
+        android:layout_width="340dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:gravity="center">
+
+        <ImageView
+            android:layout_width="340dp"
+            android:layout_height="70dp"
+            android:layout_gravity="center"
+            android:src="@drawable/button" />
+
+
+        <TextView
+            android:id="@+id/allcities"
+            android:layout_width="170dp"
+            android:layout_height="68dp"
+            android:layout_centerHorizontal="true"
+            android:gravity="center"
+            android:text="Cities Reports"
+            android:textColor="#1B4F72"
+            android:textSize="20dp" />
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="340dp"
+        android:layout_height="101dp"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:layout_marginTop="20dp">
+
+        <ImageButton
+            android:id="@+id/ib1"
+            android:layout_width="340dp"
+            android:layout_height="101dp"
+            android:layout_centerInParent="true"
+            android:src="@drawable/home" />
+    </RelativeLayout>
+
+</LinearLayout>
